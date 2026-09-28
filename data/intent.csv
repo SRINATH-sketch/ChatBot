@@ -1,0 +1,91 @@
+text,intent
+What is the price of milk,product_price
+How much does milk cost,product_price
+Tell me the price of milk,product_price
+How much is milk,product_price
+What does milk cost,product_price
+What is the cost of milk,product_price
+How much do I need to pay for milk,product_price
+Can you tell me milk price,product_price
+What is milk's price,product_price
+Give me the milk cost,product_price
+Is milk available,product_availability
+Do you have milk,product_availability
+Is milk in stock,product_availability
+Can I buy milk,product_availability
+Do you have milk in your store,product_availability
+Is there any milk available,product_availability
+Can I get milk,product_availability
+Do you sell milk,product_availability
+Is milk currently available,product_availability
+Can I purchase milk,product_availability
+What is my total,cart_total
+How much is my total,cart_total
+How much did I spend,cart_total
+What is the total amount,cart_total
+Tell me my total bill,cart_total
+How much do I have to pay,cart_total
+What is my bill amount,cart_total
+Calculate my total,cart_total
+How much is my shopping total,cart_total
+Tell me the total price,cart_total
+Show my cart,view_cart
+What is in my cart,view_cart
+Show me my cart items,view_cart
+What did I buy,view_cart
+Show my purchased products,view_cart
+What products are in my cart,view_cart
+Can you show my cart,view_cart
+Display my cart,view_cart
+Show my shopping items,view_cart
+List the items I selected,view_cart
+I want to remove an item,remove_item
+Remove something from my cart,remove_item
+How can I remove a product,remove_item
+Delete an item from my cart,remove_item
+Remove milk from my cart,remove_item
+I don't want this product,remove_item
+Can you remove an item,remove_item
+Take this product out of my cart,remove_item
+Delete milk from my cart,remove_item
+I want to delete a product,remove_item
+Do you have biscuits,product_search
+Do you sell biscuits,product_search
+I am looking for biscuits,product_search
+Can I find biscuits here,product_search
+What products do you have,product_search
+Show me available products,product_search
+I want to find a product,product_search
+Do you have bread,product_search
+Can you find rice for me,product_search
+What items are available,product_search
+How many products are available,inventory_check
+What is in stock,inventory_check
+Show me the available stock,inventory_check
+Which products are low in stock,inventory_check
+Tell me about the inventory,inventory_check
+How much stock do we have,inventory_check
+Show current inventory,inventory_check
+Which items are available,inventory_check
+Are there any products out of stock,inventory_check
+Check the inventory,inventory_check
+Hello,greeting
+Hi,greeting
+Hey,greeting
+Good morning,greeting
+Good afternoon,greeting
+Good evening,greeting
+Hi there,greeting
+Hello chatbot,greeting
+Hey assistant,greeting
+Nice to meet you,greeting
+Thank you,goodbye
+Thanks,goodbye
+Thank you for your help,goodbye
+Bye,goodbye
+Goodbye,goodbye
+See you later,goodbye
+Thanks for helping me,goodbye
+That's all,goodbye
+I am done,goodbye
+Have a nice day,goodbye
