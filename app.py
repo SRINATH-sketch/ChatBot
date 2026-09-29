@@ -1,9 +1,11 @@
 from flask import Flask,request,jsonify
+from flask_cors import CORS
 from responses import responses
 import joblib
 import pandas as pd
 
 app=Flask(__name__)
+CORS(app)
 
 model=joblib.load('model/chatbot_model.pkl')
 vectorize=joblib.load('model/vectorizer.pkl')
@@ -22,7 +24,7 @@ def chat():
     probability=model.predict_proba(vector_message)
     confidence=max(probability[0])
 
-    print("Confidence:",confidence)
+    print("Confidence:",confidence) 
 
     product_name = None
 
